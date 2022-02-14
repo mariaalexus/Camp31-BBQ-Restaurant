@@ -1,1 +1,44 @@
-*{background-color: black;color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+*{background-color: rgb(160, 66, 66);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;}
+
+.header {
+    background-color: #3d3b3b;
+    float: left;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.header-right {
+    float: right;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 35px; 
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.header a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    text-decoration: none;
+    background-color: rgb(236, 186, 48);
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
