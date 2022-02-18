@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background-color: #3d3b3b;
+    background-color: rgb(43, 42, 39);
     color: white;
     text-align: left;
     text-decoration: none;
@@ -56,6 +56,18 @@ body {
     margin-inline-end: 100px;
 }
 
+.p1contact {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+}
+
 .h1contact {
     color: rgb(236, 186, 48);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -80,24 +92,26 @@ input[type=text], select, textarea {
 
   
   input[type=submit] {
-    background-color: rgb(236, 186, 48);
+    background-color: rgb(43, 42, 39);
     color: white;
     padding: 20px;
     font-size: 18px;
     font-weight: bold;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px auto;
+    display:block;
   }
-  
+ 
   input[type=submit]:hover {
     background-color: white;
-    color: rgb(236, 186, 48);
-    text-align: center;
+    color: rgb(43, 42, 39);
+    text-align: center;    
   }
-  
+
   .container {
     border-radius: 5px;
     background-color: lightgray;
