@@ -4,24 +4,20 @@ body {
 
 .header {
     background-color: rgb(43, 42, 39);
-    color: white;
-    text-align: left;
-    text-decoration: none;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: -20%;
     width: 100%;
 }
 
-.header a:hover {
-    text-decoration: none;
-    color: white;
+.logo{
+    margin-left: 1%;
+
 }
 
-.header a.active {
-    text-decoration: none;
-    background-color: rgb(236, 186, 48);
-    color: white;
+.logo-oval {
+    width: 250px;
+
 }
 
 .navbar {
@@ -29,11 +25,34 @@ body {
     float: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    text-decoration: none;
     padding: 15px;
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-right: 1%;
     font-size: 25px; 
 }
+
+.navbar a.hover {
+    text-decoration: none;
+    color: white;
+    background-color: bisque;
+}
+
+.navbar a.active {
+    text-decoration: none;
+    background-color: rgb(236, 186, 48);
+    color: white;
+}
+
+
+.header-img {
+    background-image: url("/IMG/exterior1.jpg");
+    margin: 2% 3% 0% 3%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position-x: right;
+    }
 
 .h1home {
     color: rgb(236, 186, 48);
