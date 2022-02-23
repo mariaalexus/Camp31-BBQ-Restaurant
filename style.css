@@ -92,6 +92,10 @@ body {
 }
 
 /* styling the contact page */
+.contactsplit {
+  background-color: rgb(160, 66, 66);
+}
+
 .h1contact {
     color: rgb(236, 186, 48);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
