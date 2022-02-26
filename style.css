@@ -12,12 +12,10 @@ body {
 
 .logo{
     margin-left: 1%;
-
 }
 
 .logo-oval {
-    width: 250px;
-
+  width: 250px;
 }
 
 .navbar {
@@ -48,24 +46,36 @@ body {
     color: white;
 }
 
+/*first header image option, but did not like it. Keeping as reference.
 .header-img {
-    background-image: url("IMG/sandwich.png");
-    margin: 2% 3% 0% 3%;
-    background-size: cover;
+    background-image: url("IMG/exterior1.png");
+    margin: 0% 3% 0% 3%;
     background-position: center;
-    background-repeat: no-repeat;
     height: 50vh;
-    background-position-x: right;
     }
+*/
+
+  .header-img {
+   background-image: url("IMG/exterior1.png");
+   width: 79%;
+   height: 350px;
+   background-size: contain;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   margin-left: auto;
+   margin-right: auto;
+
+}
 
 .h1home {
     color: rgb(236, 186, 48);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 7px dotted rgb(168, 165, 165);
+    border: 7px solid rgb(168, 165, 165);
     border-radius: 50px;
     padding: 40;
     font-size: 40px;
     text-align: center;
+    margin: auto;
 }
 
 .p1 {
