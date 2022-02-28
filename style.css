@@ -31,6 +31,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 21px;
+    margin: 0 10px;
 }
 
 .navbar a.hov {
@@ -44,9 +45,10 @@ body {
     text-decoration: none;
     background-color: rgb(236, 186, 48);
     color: white;
+    padding: 10px;
 }
 
-/*first header image option, but did not like it. Keeping as reference.
+/*first header image option, but did not like it. Keeping as an option
 .header-img {
     background-image: url("IMG/exterior1.png");
     margin: 0% 3% 0% 3%;
@@ -159,99 +161,99 @@ input[type=text], select, textarea {
     margin-right: 200px;
   }
 
-    /* RESERVATIONS PAGE - styling */
+/* RESERVATIONS PAGE - styling */
 
-    .sectionnav {
-        height: 100vh;
-        background: rgb(160, 66, 66);
-      }
+.sectionnav {
+    background: #fbf7f5;
+  }
       
-      /* RESERVATIONS PAGE - navigation bar styling */
-      
-      .resnavbar {
-        width: 80%;
-        margin: 0 auto;
-        background: #fff;
-        padding: 10px 0;
-        border-style: solid;
-        border-width: 20px 0px 20px 0px;
-        border-color:#dedede;
-      }
-      
-      .resnavbar ul {
-        list-style: none;
-        text-align: center;
-      }
-      
-      .resnavbar ul li {
-        display: inline-block;
-      }
-    
-      .resnavbar ul li a {
-        display: inline-block;
-        padding: 3px;
-        text-transform: uppercase;
-        margin: 0 10px;
-        text-decoration: none;
-        color: rgb(43, 42, 39);
-        font-family: Cambria, Cochin, Georgia, Times, serif;
-        font-size: 20px;
-        font-weight: 800;
-      }
-    
-      .resnavbar ul li a:hover {
-        color: rgb(236, 186, 48);
-      }
-    
-      .resnavbar ul li a.active {
-        text-decoration: underline
-      }
-      
-      .resnavbar ul li a {
-        position: relative;
-      }
-      
-      .resnavbar ul li a:after {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 0%;
-        content: '.';
-        color: transparent;
-        background: #aaa;
-        height: 1px;
-      }
-        
-      .resnavbar ul li a {
-        transition: all 2s;
-      }
-    
-      .resnavbar ul li a:hover {
-        color: #fff;
-        z-index: 1;
-      }
-      
-      .resnavbar ul li a:hover:after {
-        z-index: -10;
-        animation: fill 1s forwards;
-        opacity: 1;
-      }
-    
-      /* Keyframes */
-      @keyframes fill {
-        0% {
-          width: 0%;
-          height: 1px;
-        }
-        50% {
-          width: 100%;
-          height: 1px;
-        }
-        100% {
-          width: 100%;
-          height: 100%;
-          background: rgb(236, 186, 48);
-        }
-      }
+/* RESERVATIONS PAGE - navigation bar styling */
+
+.resnavbar {
+  width: 90%;
+  margin: 0 auto;
+  background: #fffff2;
+  padding: 10px 0;
+  border-style: solid;
+  border-width: 20px 0px 20px 0px;
+  border-color:#dedede;
+}
+
+.resnavbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.resnavbar ul li {
+  display: inline-block;
+}
+
+.resnavbar ul li a {
+  display: inline-block;
+  padding: 3px;
+  text-transform: uppercase;
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(43, 42, 39);
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.resnavbar ul li a:hover {
+  color: rgb(236, 186, 48);
+}
+
+.resnavbar ul li a.active {
+  text-decoration: underline
+}
+
+.resnavbar ul li a {
+  position: relative;
+}
+
+.resnavbar ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+  
+.resnavbar ul li a {
+  transition: all 2s;
+}
+
+.resnavbar ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+
+.resnavbar ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/* Keyframes */
+@keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 186, 48);
+  }
+}
+
