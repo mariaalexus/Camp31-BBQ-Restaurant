@@ -261,7 +261,7 @@ input[type=text], select, textarea {
   text-align: center;
   font-family: brush script mt, cursive;
   font-size: 120px;
-  margin-top: -3.5%;
+  margin: 0 auto;
   opacity: 60%;
 }
 
@@ -269,7 +269,7 @@ input[type=text], select, textarea {
   text-align: center;
   font-family: brush script mt, cursive;
   font-size: 35px;
-  margin-top: -6%;
   opacity: 60%;
+  margin: 0 auto;
 }
 
