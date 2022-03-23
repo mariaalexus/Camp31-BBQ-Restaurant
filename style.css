@@ -57,7 +57,7 @@ body {
     }
 */
 
-  .header-img {
+  /*second header image option, but did not like it. Keeping as an option .header-img {
    background-image: url("IMG/exterior1.png");
    width: 79%;
    height: 300px;
@@ -66,7 +66,21 @@ body {
    margin-bottom: 1%;
    margin-left: auto;
    margin-right: auto;
+}
+*/
 
+/*IMAGE CAROUSEL ON HOME PAGE*/
+.w-100 {
+  width: 55% !important;
+  margin: auto;
+}
+
+.carousel-control-prev {
+  margin-left: 18%;
+}
+
+.carousel-control-next{
+  margin-right: 18%;
 }
 
 .h1home {
@@ -103,9 +117,16 @@ body {
     margin-inline-end: 100px;
 }
 
-/* styling the contact page */
+/* CONTACT page */
 .contactsplit {
   background-color: rgb(160, 66, 66);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 30px;
+  margin: auto;
 }
 
 .h1contact {
@@ -117,7 +138,7 @@ body {
     margin-bottom: 30px;
 }
 
-input[type=text], select, textarea {
+input[type=text], select, textarea, .form-select {
     background-color: lightgrey;
     width: 100%;
     padding: 12px;
@@ -128,10 +149,10 @@ input[type=text], select, textarea {
     resize: vertical;
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
   }
-
-  
-  input[type=submit] {
+ 
+  .btn {
     background-color: rgb(43, 42, 39);
     color: white;
     padding: 20px;
@@ -145,23 +166,14 @@ input[type=text], select, textarea {
     margin:0px auto;
     display:block;
   }
- 
-  input[type=submit]:hover {
+  
+  .btn:hover {
     background-color: white;
     color: rgb(43, 42, 39);
     text-align: center;    
   }
 
-  .container {
-    border-radius: 5px;
-    background-color: lightgray;
-    padding: 30px;
-    margin-top: -15px;
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-
-/* RESERVATIONS PAGE - styling */
+/* RESERVATIONS PAGE*/
 
 .sectionnav {
     background: #fbf7f5;
@@ -272,4 +284,3 @@ input[type=text], select, textarea {
   opacity: 60%;
   margin: 0 auto;
 }
-
