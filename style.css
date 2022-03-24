@@ -263,9 +263,9 @@ h3 {
 } 
 
 .p1table {
-  color: rgb(172, 41, 41);
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   text-align: left;
   display: block;
 }
@@ -274,12 +274,13 @@ h3 {
  margin: auto;
  text-align: center; 
  margin-top: 3%;
+
 }
 .accordion {
   background-color: #eee;
-  color: #444;
+  color: rgb(172, 41, 41);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   padding: 18px;
   border: none;
@@ -322,6 +323,11 @@ h3 {
   font-size: 18px;
 }
 
+.p2 {
+  text-align: left;
+  color: black;
+  font-size: 17px;
+}
 
 
 
