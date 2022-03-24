@@ -1,9 +1,10 @@
-// Alert pop up message on Contact page form
+// Alert pop up message on Contact Us form
 function myFunction() {
     confirm("Thanks for contacting us!");
   }
 
-  // Accordion on About page
+
+// Accordion on About page
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -20,6 +21,7 @@ acc[i].addEventListener("click", function() {
 });
 }
 
+// Modal pop-up on Menu page
 
 // Get the modal
 var ebModal = document.getElementById('mySizeChartModal');

@@ -235,6 +235,7 @@ h5 {
   border: 5px solid rgb(236, 186, 48);
   width: 70%;
   font-size: 25px;
+  text-align: center;
 }
 
 /* The Close Button */
@@ -396,13 +397,13 @@ input[type=text], select, textarea, .form-select {
 /* RESERVATIONS PAGE*/
 
 .sectionnav {
-    background: #fbf7f5;
+    background: rgb(43, 42, 39);
   }
       
 .resnavbar {
   width: 90%;
   margin: 0 auto;
-  background: #fffff2;
+  background: whitesmoke;
   padding: 10px 0;
   border-style: solid;
   border-width: 20px 0px 20px 0px;
@@ -459,7 +460,7 @@ input[type=text], select, textarea, .form-select {
 }
 
 .resnavbar ul li a:hover {
-  color: #fff;
+  color: rgb(236, 186, 48);
   z-index: 1;
 }
 
@@ -497,7 +498,91 @@ input[type=text], select, textarea, .form-select {
 .resh2 {
   text-align: center;
   font-family: brush script mt, cursive;
-  font-size: 35px;
+  font-size: 50px;
   opacity: 60%;
   margin: 0 auto;
+  margin-top: -1.25%;
+  color: rgb(172, 41, 41);
+}
+
+.resh3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 60%;
+  margin: 0 auto;
+  color: rgb(172, 41, 41);
+}
+
+.resh4 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 60%;
+  margin: 0 auto;
+  color: black;
+}
+
+div.elem-group {
+  margin: 20px 0;
+  width: 50%;
+  margin: auto;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+.resBtn {
+  height: 70px;
+  width: 150px;
+  background: rgb(172, 41, 41);
+  opacity: 60%;
+  border: none;
+  color: white;
+  font-size: 40px;
+  font-family: brush script mt, cursive;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.resBtn:hover {
+  border: 2px solid black;
+}
+
+.centerBtn {
+  margin-left: 45%;
 }

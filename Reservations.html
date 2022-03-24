@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="index.js"></script>
+
   </head>
 
 <body style="background-color: #fbf7f5;">
@@ -20,13 +22,58 @@
       <li><a href="Menus.html">Menus</a></li>
       <li><a href="About.html">About</a></li>
       <li><a href="Contact.html">Contact</a></li>
-      <li><a class="active" href="Reservations.html">Reservations</a></li>
+      <li><a class="active" href="Reservations.html">Events</a></li>
     </ul>
   </nav>
 </section>
 
-<div class="resh1">City View</div>
-<div class="resh2">Thur-Sat</div>
+<p class="resh1">The Hourglass</p>
+<p class="resh2">Formal Event Space</p>
+<br><p class="resh3"><b>(251) 867-5500</b></p><br>
+
+<p class="resh4">We have an elegant, fully equipped, 300-seat banquet hall adjoining the restaurant. With on-site catering and chair/table rental available, this space is perfect for weddings, receptions, bridal and/or baby showers, birthday parties, and much more. Stop by and take a tour for any of your special occassion needs!</p><br><br>
+
+<form action="reservation.php" method="post">
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+  </div><br>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div><br>
+  <div class="elem-group">
+    <label for="phone">Your Phone</label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+  </div>
+  <hr>
+  <div class="elem-group inlined">
+    <label for="guests">Estimated # of Guests</label>
+    <input type="number" id="guests" name="total_guestss" placeholder="200" min="1" required>
+  </div>
+  <div class="elem-group inlined">
+    <label for="event-date">Event Date</label>
+    <input type="date" id="event-date" name="event-date" required>
+  </div>
+
+  <div class="elem-group">
+    <label for="room-selection">Select Room Preference</label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Choose a Room from the List</option>
+        <option value="adjoining">Small Event Space (upstairs)</option>
+        <option value="adjacent">Large Event Space (downstairs)</option>
+        <option value="connecting">Wedding Chapel (upstairs)</option>
+    </select>
+  </div>
+  <hr>
+  <div class="elem-group">
+    <label for="message">Anything Else?</label>
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important about your event." required></textarea>
+  </div>
+  <div class="centerBtn">
+    <button type="submit" class="resBtn">Submit</button>
+  </div>
+</form>
 
 
 <!--h1 class="resh1">City View</h1>
