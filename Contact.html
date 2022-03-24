@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="index.js"></script>
+
   </head>
   
   <body>
@@ -29,13 +31,26 @@
       </div>
     </div>
 
-    <div class="contactsplit">
-
       <h1 class="h1contact">We want to hear from you!</h1>
-
-      <p class="p1contact">We are located at:<br>222 St. Joseph Avenue<br>Brewton, AL 36426.</p>
-      <p class="p1contact">Our phone number is <b>251-867-2486</b></p>
-      <p class="p1contact"><b>Let us cater your next event!</b> Large or small, from lavish wedding with hundreds of guests to a Super Bowl watch party with close friends, we've got you covered! </p>
+    
+      <div class="topContainer">
+        <div class="row">
+          <div class="col-sm">
+            <p class="p1contact">We are located at:<br><br>222 St. Joseph Avenue<br>Brewton, AL 36426</p>
+          </div>
+          <div class="col-sm">
+            <p class="p1contact">Our hours of operation are:<br><br>Monday - Saturday<br>11:00am - 9:00pm<br>Sunday<br>10:00am - 3:00pm </p>            
+          </div>
+          <div class="col-sm">
+            <p class="p1contact">Our phone number is:<br><br>251-867-2486</b></p>
+          </div>
+          <div class="col-sm">
+            <p class="p1contact">Our email address is:<br><br>camp31bbq@aol.com</p>
+          </div>
+        </div>
+        <p class="p1contact"><b>Let us cater your next event!</b> Large or small, from lavish wedding with hundreds of guests to a Super Bowl watch party with close friends, we've got you covered! </p>
+      </div>
+    
 
       <!-- not currently using this form 
         <div class="container">
@@ -66,19 +81,22 @@
   </div> -->
 
   <div class="container">
-    <form class="row g-3">
+    <form novalidate class="row g-3">
       <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">First Name</label>
-        <input type="text" class="form-control" id="inputEmail4">
+        <label for="inputFirstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="inputFirstName">
+        <span><span class="error"></span>
       </div>
       
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Last Name</label>
-        <input type="text" class="form-control" id="inputPassword4">
+        <label for="inputLastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="inputLastName">
+        <span><span class="error"></span>
       </div>
+
       <div class="col-12">
-        <label for="inputAddress" class="form-label">Phone Number</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="(251) 000-0000">
+        <label for="inputPhone" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" id="inputPhone" placeholder="(251) 000-0000">
       </div>
 
       <div class="col-md-6">
@@ -103,12 +121,12 @@
       </div>
 
       <div class="col-12">
-        <label for="inputAddress" class="form-label">Your Message</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Write us a note!">
+        <label for="inputMessage" class="form-label">Your Message</label>
+        <input type="text" class="form-control" id="inputMessage" placeholder="Write us a note!">
       </div>
 
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" onclick="myFunction()" class="btn btn-primary">Submit</button>
       </div>
     </form>
 </div>
