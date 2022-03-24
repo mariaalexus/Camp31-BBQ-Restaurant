@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 
 <body>
   
@@ -45,35 +45,27 @@
     </table>
     </div>
   
-  <button class="accordion">Visit Us!</button>
+  <button class="accordion">Visit Us</button>
     <div class="panel">
     <p>We are located at:<br><br>222 St. Joseph Avenue<br>Brewton, AL 36426</p>
   </div>
 
-  <button class="accordion">Call Us!</button>
-  <div class="panel">
+  <button class="accordion">Call Us</button>
+    <div class="panel">
     <p>Our phone number is:<br><br>251-867-2486</p>
+  </div>
+
+<button class="accordion">Learn more about us</button>
+  <div class="panel">
+  <p>Click the button below to watch a short video from our Owner and Chef, Adam Manasco!</p><br>
+  <a href="https://elocallink.tv/proofs/prf/?cid=p7QNxB64&dc=true&ptype=b&ap=true&p=9&s=0&a=17" target="_blank" class="videoBtn">Click to watch video</a><br>
+  <br>
+  <br>
+  <p><b>Our History</b></p>
+  <p>In </p>
   </div>
 </div>
 
-  <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        } 
-      });
-    }
-    </script>
 
-
-
-  </body>
-  </html>
+</body>
+</html>
