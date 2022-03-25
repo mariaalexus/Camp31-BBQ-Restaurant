@@ -198,6 +198,24 @@ body {
   font-size: 18px;
 }
 
+.containerMenuTwo{
+  border-radius: 5px;
+  background-color: rgb(240, 216, 151);
+  padding: 30px;
+  margin: auto;
+  margin-top: 3%;
+  width: 80%;
+}
+
+.align-right-two {
+  float: right;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+
 h2 {
   color: rgb(172, 41, 41);
 }
@@ -210,7 +228,6 @@ h5 {
 #mySizeChart{
   font-size: 40px;
   margin: 0 auto;
-  margin-left: 30%;
 }
 
 /* The Modal (background) */
@@ -247,13 +264,33 @@ h5 {
   font-weight: bold;
 }
 
-.ebcf_close:hover,
-.ebcf_close:focus {
+.ebcf_close:hover, .ebcf_close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
+/* scroll to top button */
+
+
+
+#scrolltoTopBtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(172, 41, 41);
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 4px;
+  margin: auto;
+  margin-left:90%
+}
+
+#scrolltoTopBtn:hover {
+  background-color: white;
+  color: rgb(172, 41, 41);
+}
 
 
 /* ABOUT page */
