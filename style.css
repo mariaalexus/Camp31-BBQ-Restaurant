@@ -284,7 +284,7 @@ h5 {
   padding: 20px;
   border-radius: 4px;
   margin: auto;
-  margin-left:90%
+  margin-left: 90%
 }
 
 #scrolltoTopBtn:hover {
@@ -622,4 +622,27 @@ hr {
 
 .centerBtn {
   margin-left: 45%;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  margin: auto;
 }
